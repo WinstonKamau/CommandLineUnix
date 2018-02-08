@@ -8,13 +8,18 @@ Currently the script has been tested for running on Mac Os.
 
 1. Clone the repository by running the command
 
-git clone _____________________---
+`git clone https://github.com/WinstonKamau/CommandLineUnix.git`
 
-2. If you have bash in your terminal, run the command `bash shell_script.sh`. If you do not have bash then run the commands below:
+2. Change directory to the basics folder e.g. if repo was clone on the `~` path then:
+
+
+`cd ~/CommandLineUnix/basics`
+
+3. If you have bash in your terminal, run the command `bash shell_script.sh`. If you do not have bash then run the commands below:
 - `chmod 744 shell_script.sh` 
 - `./shell_script.sh`
 
-3. While executing the file, a password may be asked to run any sudo commands. Give your system's password.
+4. While executing the file, a password may be asked to run any sudo commands. Give your system's password.
 
 ## What does this Script do?
 1. The following script creates **directory1** at the `~` path, and **directory2** at the `/example/` path.
